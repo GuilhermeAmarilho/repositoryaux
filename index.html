@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="manifest" href="manifest.json"> -->
+        <title>Study Life</title>
+    </head>
+    <body>
+        <div class="container">
+            <!--navbar-->
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="navbar-brand"><img src="pict/icon.png" style="width:100%" alt="logo"></a>
+                <a href="index.html">Home</a>
+                <a href="materias.html">Disciplinas</a>
+                <a href="progresso.html">Progresso</a>
+                <a href="tarefas.html">Tarefas</a>
+                <a href="hora.html">Horários</a>
+                <a href="material.html">Material</a> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <!--corpo da home-->
+            <div>
+                <br><br>
+                <div class="row">
+                    <a href="materias.html"><div class="column">
+                        <h2>Minhas matérias</h2>
+                        <p>Veja aqui suas matérias</p>
+                    </div></a>
+                    <a href="progresso.html"><div class="column">
+                        <h2>Meu progresso</h2>
+                        <p>Não perca seu desempenho, consulte seu progresso</p>
+                    </div></a>
+                    <a href="tarefas.html"><div class="column">
+                        <h2>Tarefas</h2>
+                        <p>Perdido nos trabalhos? Aqui você não se perde</p>
+                    </div></a>
+                    <a href="hora.html"><div class="column">
+                        <h2>Horários</h2>
+                        <p>Não leve mais o caderno errado, consulte seu horário</p>
+                    </div></a>
+                </div>
+            <div>
+                <div class="ultcomun"><a href="material.html"><div class="column">
+                        <h2>Galeria</h2>
+                        <p>Salve aqui as fotos de matérias e anotações</p>
+                    </div></a></div>
+                    <br><br>
+            </div>
+        </div>
+        </div>
+        <script async src="js/nav.js"></script>
+        <!-- <script>if (navigator.serviceWorker.controller) {
+                console.log('[PWA Builder] active service worker found, no need to register')
+            } else {
+                navigator.serviceWorker.register('sw.js', {
+                    scope: './'
+                }).then(function(reg) {
+                    console.log('Service worker has been registered for scope:'+ reg.scope);
+                });
+            }
+            var elem = document.querySelector('.dropdown-trigger');
+            var instance = M.Dropdown.init(elem, options);
+        </script> -->
+    </body>
+</html>

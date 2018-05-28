@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Study Life</title>
+</head>
+<body>
+    <div class="container">
+        <!--navbar-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="navbar-brand"><img src="pict/icon.png" style="width:100%" alt="logo"></a>
+            <a href="index.html">Home</a>
+            <a href="materias.html">Disciplinas</a>
+            <a href="progresso.html">Progresso</a>
+            <a href="tarefas.html">Tarefas</a>
+            <a href="hora.html">Horários</a>
+            <a href="material.html">Material</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div>
+            <h2>Matérias cadastradas</h2>
+            <h3>4</h3>
+            <br>
+            <h2>Frequência global</h2>
+            <br>
+            <div class="pieContainer grafi">
+                <div class="pieBackground">
+                    <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+                    <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+                </div>
+            </div>
+            <br>
+            <!--Progresso-->
+            <h2>Desempenho</h2>
+            <table class="desempenho">
+                <thead>
+                    <tr>
+                        <td class="tit">Matéria</td>
+                        <td class="tit">Nota</td>
+                        <td class="tit">Frequência</td>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td class="cont">Matemática 3</td>
+                        <td class="cont">7.4</td>
+                        <td class="cont">74%</td>
+                    </tr>
+                    <tr>
+                        <td class="cont">Engenharia de Software</td>
+                        <td class="cont">8.2</td>
+                        <td class="cont">82%</td>
+                    </tr>
+                    <tr>
+                        <td class="cont">Física 4</td>
+                        <td class="cont">3.7</td>
+                        <td class="cont">37%</td>
+                    </tr>
+                    <tr>
+                        <td class="cont">Banco de Dados</td>
+                        <td class="cont">6.5</td>
+                        <td class="cont">65%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>  
+    <script async src="js/nav.js"></script>
+</body>
+</html>
